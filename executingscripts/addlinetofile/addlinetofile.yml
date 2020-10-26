@@ -1,0 +1,9 @@
+-
+  name: Add DNS server to resolv.conf
+  hosts: localhost
+  tasks:
+    -lineinfile: 
+        path: /etc/resolv.conf
+        line: 'nameserver 10.1.250.10'
+
+        # these playbooks allow for an itempotent way to add lines to files, it will either search for the line or add it if it doesnt exist.

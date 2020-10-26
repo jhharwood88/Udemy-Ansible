@@ -1,0 +1,2 @@
+target1 ansible_host=192.168.1.112 #left off ansible_ssh_pass for GH 
+target2 ansible_host=192.168.1.114 #left off ansible_ssh_pass for GH 
